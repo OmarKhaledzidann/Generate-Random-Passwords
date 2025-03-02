@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   </head>
+
+   <body>
+        <div class="container">
+            <h1>Generate a <span class="highlight">random password</span></h1>
+            <p class="subtitle">Never use an insecure password again.</p>
+            <button class="generate-btn" onclick="generateRandomPassword()">Generate passwords</button>
+            <hr>
+
+            <!--Passwords buttons -->
+            <div class="passwords">
+                
+                <!-- First Password Field-->
+                <div class="password-box" id="generated-Pass">
+                    <img src="copy2.png" class="copy-icon" 
+                    onclick="copyPassword()" alt="copy">
+                </div>
+
+                <!-- Second Password Field-->
+                <div class="password-box" id="copied-Pass"></div>
+            </div>
+            <p id="copy-message" class="copy-message">Your password got copied successfully!</p>
+        </div>
+   </body>
+   <script src="script.js"></script>
+</html>

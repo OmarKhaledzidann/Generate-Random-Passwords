@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EFF7EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #F0FAE1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+
+.highlight {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #6B7280;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.generate-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    background-color: #45A049;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0.5px solid #D1D5DB;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.password-box {
+    background-color: #1E293B;
+    color: #4CAF50;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 48%;
+    text-align: center;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Moves text left & icon right */
+    position: relative;
+}
+
+.copy-icon {
+    width: 20px; /* Adjust size */
+    height: 20px;
+    cursor: pointer;
+    margin-left: auto; /* Pushes the icon to the right */
+}
+
+.copy-message {
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+
